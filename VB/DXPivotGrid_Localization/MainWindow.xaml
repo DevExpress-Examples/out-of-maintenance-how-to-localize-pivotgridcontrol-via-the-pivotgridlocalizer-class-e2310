@@ -1,4 +1,4 @@
-﻿<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:my="clr-namespace:DXPivotGrid_Localization" x:Class="DXPivotGrid_Localization.MainWindow" Title="MainWindow" Height="350" Width="487" Loaded="Window_Loaded">
+<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:my="clr-namespace:DXPivotGrid_Localization" x:Class="DXPivotGrid_Localization.MainWindow" Title="MainWindow" Height="350" Width="487" Loaded="Window_Loaded">
     <Window.Resources>
         <my:DataSet1 x:Key="nwindDataSet" />
         <CollectionViewSource x:Key="categoryProductsViewSource" Source="{Binding Path=CategoryProducts, Source={StaticResource nwindDataSet}}" />
