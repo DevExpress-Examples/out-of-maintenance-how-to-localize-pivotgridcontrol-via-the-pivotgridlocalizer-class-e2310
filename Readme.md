@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/DXPivotGrid_Localization/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_Localization/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/DXPivotGrid_Localization/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_Localization/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to localize PivotGridControl via the PivotGridLocalizer class
 
 
